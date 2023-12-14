@@ -1,0 +1,527 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    --bggradient: linear-gradient(to bottom,
+            #dd2476, #ff512f);
+    --light-gray: rgba(255, 255, 255);
+}
+
+header {
+    background: #dd2476;
+    background: var(--bggradient);
+    overflow-x: hidden;
+
+
+}
+
+.nav-item:last-child {
+    padding-right: 10.5rem;
+}
+
+.nav-item {
+    padding: 0.9em;
+
+}
+
+.nav-link {
+    color: whitesmoke;
+}
+
+.navbar-brand {
+    padding-left: 8rem;
+    color: whitesmoke;
+}
+
+.navbar-brand:hover {
+    color: blue;
+}
+
+header.row.col-md-5 {
+    padding: 4.2vmin 1vmin;
+}
+
+.stat {
+    color: whitesmoke;
+}
+
+h6 {
+    letter-spacing: 4px;
+    padding: 1vmin;
+}
+
+.stat h2 {
+    font-size: 8vmin;
+    font-weight: bold;
+}
+
+.stat p {
+    padding: 1vmin;
+}
+
+.stat button {
+    border-radius: 30px;
+    font-weight: 500;
+    padding: 0.1em 0em;
+}
+
+
+
+.cover {
+    height: 55vmin;
+    width: 100%;
+    background: url(https://i0.wp.com/www.jefflewistrumpet.com/wp-content/uploads/2020/07/website-cover-photo-1.png?ssl=1);
+    background-position: -24rem -19rem;
+    background-size: 150%;
+    position: relative;
+
+}
+
+.cover .content {
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+    color: whitesmoke;
+}
+
+.cover .content h1 {
+    font-size: 6vmin;
+}
+
+.cover .content p {
+    font-size: 2vmin;
+}
+
+.numbers .rect {
+    position: relative;
+    background: white;
+    padding-top: 3.5vmin;
+    z-index: 1;
+    height: 12rem;
+    width: 17rem;
+    margin: 1rem;
+    border-radius: .5em;
+    box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
+
+}
+
+.numbers {
+    margin-top: -15vmin;
+}
+
+.rect h1 {
+    font-size: 5rem;
+    color: tomato;
+}
+
+.purchase .ab {
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+
+}
+
+.purchase .jk {
+    color: #2e2c2caf;
+    font-size: 3vmin;
+    padding-bottom: 10vmin;
+}
+
+.purchase .cards .card {
+    width: 22rem;
+    margin: 3vmin;
+}
+
+.cards div {
+    padding: 0;
+    margin: 0;
+}
+
+.card-body {
+    background: rgba(208, 241, 241, 0.199);
+    padding: 1.4rem 2.5rem;
+    font-size: 2vmin;
+}
+
+.card-text {
+    padding: 2.5rem 3rem;
+    color: #2e2c2caf;
+}
+
+.card-body .pricing {
+    background: rgba(208, 241, 241, 0.199);
+    border-top-right-radius: 170px;
+    border-top-left-radius: 170px;
+}
+
+.pricing h1 {
+    padding: 1em 0.5em;
+    font-size: 10vmin;
+}
+
+.card-title {
+    padding: 2vmin;
+}
+
+.section-3 {
+    height: 70vmin;
+    margin-top: 15vmin;
+    background: var(--bggradient);
+}
+
+.section-3 h1 {
+    padding: 2em 0 0.5em 0;
+    font-size: 3em;
+    color: whitesmoke;
+}
+
+.section-3 p {
+    padding: 0 4em;
+    padding-bottom: 2em;
+    color: #2e2c2caf;
+    font-size: 3vmin;
+}
+
+.section-3 .desktop {
+    display: inline-block;
+    border-radius: 150px;
+    padding: 2vmin 4.5vmin;
+    margin: 1em;
+}
+
+.section-4 h1 {
+    padding-top: 14vmin;
+    font-size: 6vmin;
+}
+
+.section-4 p {
+    padding-bottom: 10vmin;
+}
+
+.section-4 .card {
+    width: 22rem;
+    margin-top: 10vmin;
+}
+
+.section-4 .card-text {
+    padding: 0.5rem;
+}
+
+.section-4 .card-body a {
+    font-size: 1.5em;
+}
+
+.carousel-item {
+    padding-left: 3rem;
+}
+
+.border-radius {
+    border-radius: 50rem;
+    width: 10rem;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+.carousel-item {
+    padding-left: 0;
+}
+
+footer span {
+    color: #ff512f;
+
+}
+
+.section-3 {
+    position: relative;
+    overflow: hidden;
+}
+
+.section-3 .btn:hover {
+    background-color: #343a40;
+    color: var(--light-gray);
+
+}
+
+footer input {
+    border: none;
+}
+
+footer input::placeholder {
+    color: white !important;
+}
+
+footer .input-group .input-group-text {
+    background: var(--bggradient);
+    border: none;
+    border-radius: 0;
+
+}
+
+footer .column {
+    color: #dd2476;
+}
+
+footer .column .bi {
+    margin: 0.2em;
+}
+
+footer p {
+    color: #87CEEB;
+}
+
+
+
+
+@media(max-width:768px) {
+    .navbar-brand {
+        padding-left: 1em;
+    }
+
+    .section-1 .row .col-md-6 .pannel {
+        position: initial;
+        height: initial;
+        width: initial;
+    }
+
+
+
+
+    .numbers .rect {
+        width: 10rem;
+        height: 8rem;
+    }
+
+    .rect h1 {
+        font-size: 2rem;
+    }
+
+    .section-3 {
+        height: inherit;
+        padding: 10vmin !important;
+    }
+
+    .section-3 .row h1 {
+        padding: 6vmin 4vmin;
+    }
+
+    .section-3 .row .col-md-6 {
+        text-align: center !important;
+    }
+
+    .section-3 .deskstop {
+        font-size: 8rem;
+    }
+
+    .section-4 .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 20rem;
+    }
+
+    .section-4 .carousel-inner {
+        width: 28rem;
+
+    }
+
+
+}
+
+@media(max-width:425px) {
+
+    .carousel-item {
+        padding-left: 0.1rem;
+
+    }
+
+    .section-4 .card {
+        margin-left: -14vmin;
+
+    }
+
+    .section-4 .img {
+        height: 10rem;
+        width: 8rem;
+    }
+
+    .section-4 .card-body {
+        align-items: center;
+        padding-left: 4rem;
+    }
+
+    .section-4 .TT {
+        padding-right: 5rem;
+    }
+
+    .section-4 .t10 {
+        padding-left: 2rem;
+    }
+
+}
+
+@media(max-width:1068px) {
+    .section-4 .row {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .section-4 .carousel-inner {
+        align-self: center;
+        width: 28rem;
+
+    }
+
+    .p1 {
+        padding-top: 0 !important;
+    }
+
+
+
+
+
+    .section-3 {
+        height: inherit;
+        padding: 10vmin !important;
+    }
+
+}
+
+
+@media(max-width:320px) {
+    .section-4 .card :last-child {
+        width: 23rem !important;
+        text-align: center;
+
+    }
+
+    .section-4 .row {
+        align-items: center !important;
+    }
+
+    .section-4 .p {
+        padding-right: 6rem;
+    }
+
+    .section-4 a {
+        padding-left: 1rem;
+    }
+
+    .section-4 .card-title {
+        padding-left: 2rem;
+    }
+
+    .AB {
+        padding-left: -10rem !important;
+        text-align: center;
+    }
+
+    .section-4 img {
+        justify-content: center;
+    }
+
+    .section-4 .card-body {
+        padding-left: 5rem;
+    }
+
+    .section-4 .card-title {
+        font-size: 1.9em !important;
+    }
+
+    .section-4 .carousel-item {
+        justify-content: center;
+
+    }
+
+    .section-4 .t1 {
+        padding-right: 4rem;
+        padding-left: 2rem;
+        align-items: center;
+    }
+
+    .section-4 .a1 {
+        padding-right: 1.4rem;
+    }
+
+    .section-4 .TT {
+        padding-right: 3.5rem;
+
+    }
+
+    .section-4 .t2 {
+        padding-left: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .t3 {
+        margin-right: 3rem;
+    }
+
+    .t4 {
+        padding-right: 2rem;
+    }
+
+    .t5 {
+        padding-right: 8rem;
+    }
+
+    .t6 {
+        width: 14rem !important;
+        text-align: center !important;
+        padding-left: 0 !important;
+    }
+
+    .t7 {
+        margin-left: -2rem !important;
+    }
+
+    .t9 {
+        width: 40% !important;
+    }
+
+    .t8 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        object-position: -100vmin 0;
+
+    }
+
+    .section-4 .t10 {
+        padding-left: 1rem;
+        text-align: center;
+        padding-right: 10rem;
+
+        align-items: center;
+
+    }
+
+    .t11 {
+        padding-right: 11rem;
+    }
+
+    .t8 {
+        font-size: 1.7em !important;
+    }
+
+}
